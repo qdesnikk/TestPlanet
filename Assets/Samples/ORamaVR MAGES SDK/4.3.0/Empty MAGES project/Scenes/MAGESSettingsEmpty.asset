@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efff46aa3ee7f1e4a803ea152fa6db72, type: 3}
+  m_Name: MAGESSettingsEmpty
+  m_EditorClassIdentifier: 
+  MAGESVersion: ORamaVR MAGES 4.0.0
+  loginUI: {fileID: 7893032492560938452, guid: 7a5245008b8f8e7488097062b0465509, type: 3}
+  verificationCodeUI: {fileID: 5759327016184863557, guid: cea45d94c10d3664eba7fd818c414199,
+    type: 3}
+  operationStartUI: {fileID: 7043335914149686159, guid: e9c86ef372c40794eb2b0643d70f293e,
+    type: 3}
+  analyticsViewUI: {fileID: 4055303276646785221, guid: c3210ea169560dd45a2bab858eb9301e,
+    type: 3}
+  customizationCanvasUI: {fileID: 6299760238693719013, guid: f4113e97f9487c8489f501ecac92fd82,
+    type: 3}
+  productCode: platform
+  OperationXML: {fileID: 4900000, guid: cf0ffc63a056549429e7210e8c9cbedf, type: 3}
+  LoginIdentityUrl: 
+  LoginLoopBackUrl: 
+  ClientSecret: 
+  RegisterUrl: 
+  ProfileUploadUrl: 
+  AnalyticsUploadUrl: 
+  QuestionnaireUploadUrl: 
+  UserLogin: 0
+  LanguageTranslationJsonPath: 
+  enableMicrophone: 1
+  UploadRecordingsVR: 
+  DownloadRecordingsVR: 

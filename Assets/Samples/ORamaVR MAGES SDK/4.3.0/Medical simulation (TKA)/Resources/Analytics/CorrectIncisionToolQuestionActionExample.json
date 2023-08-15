@@ -1,0 +1,45 @@
+{
+  "multiplier": 1,
+  "errorsData": [],
+  "errorsStayData": [],
+  "errorsHitPerformData": [],
+  "timeData": {
+    "enabled": false,
+    "timer": 10.0,
+    "importance": 2
+  },
+  "lerpData": {
+    "enabled": false,
+    "scoringAngles": [],
+    "finalLerpGameObjects": [],
+    "importance": 2
+  },
+  "qData": {
+    "enabled": true,
+    "questionPrefabs": [
+      "LessonPrefabs/Lesson0/Stage0/Action1/CorrectIncisionToolQuestionExample"
+    ],
+    "spawnError": false,
+    "questionErrorMsg": "UIExpDemoFreeNA",
+    "questionErrorType": 0,
+    "importance": 4
+  },
+  "vData": {
+    "enabled": false,
+    "interactablePrefab": null,
+    "velocity": 0.0,
+    "spawnError": false,
+    "errorMsg": "0",
+    "errorType": 0,
+    "importance": 2
+  },
+  "customAnalyticsData": {
+    "enabled": false,
+    "script": null,
+    "importance": 2
+  },
+  "numberOfMetrics": 1,
+  "errorsEnabled": false,
+  "stayErrorsEnabled": false,
+  "hitPerformErrorsEnabled": false
+}

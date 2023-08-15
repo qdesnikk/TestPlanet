@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ArrayOfLessons xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Lessons>
+    <Lesson_Name>Starting Lesson</Lesson_Name>
+    <Tag>Normal</Tag>
+    <Stages>
+      <Stage_Name>Starting Stage</Stage_Name>
+      <Actions>
+        <Action>Operation Start</Action>
+        <ActionClassName>OperationStartEmpty</ActionClassName>
+        <optionalActions />
+        <destroyOnPerform />
+      </Actions>
+      <Actions>
+        <Action>Operation End</Action>
+        <ActionClassName>OperationEndEmpty</ActionClassName>
+        <optionalActions />
+        <destroyOnPerform />
+      </Actions>
+    </Stages>
+  </Lessons>
+</ArrayOfLessons>

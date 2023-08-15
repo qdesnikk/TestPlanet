@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efff46aa3ee7f1e4a803ea152fa6db72, type: 3}
+  m_Name: MAGESSettingsCultural
+  m_EditorClassIdentifier: 
+  MAGESVersion: ORamaVR MAGES 4.0.0
+  loginUI: {fileID: 7893032492560938452, guid: 7a5245008b8f8e7488097062b0465509, type: 3}
+  verificationCodeUI: {fileID: 5759327016184863557, guid: cea45d94c10d3664eba7fd818c414199,
+    type: 3}
+  operationStartUI: {fileID: 4724940016408890019, guid: a602ef0096e55f144af5d8352c1e3ade,
+    type: 3}
+  analyticsViewUI: {fileID: 4055303276646785221, guid: c3210ea169560dd45a2bab858eb9301e,
+    type: 3}
+  customizationCanvasUI: {fileID: 6299760238693719013, guid: f4113e97f9487c8489f501ecac92fd82,
+    type: 3}
+  optionsUI: {fileID: 1476319424171800, guid: b1dd3a5ccb1b63e46980e07bbb673b8e, type: 3}
+  customErrorUI: {fileID: 0}
+  customWarningUI: {fileID: 0}
+  customCriticalUI: {fileID: 0}
+  customNotificationUI: {fileID: 0}
+  networkInfoUI: {fileID: 1198252840137898, guid: 114988d5d6c9dff4d90dad383471682b,
+    type: 3}
+  networkUI: {fileID: 8235612400274572116, guid: 3b5a3e13dc381504d9d1a0d6ae19f4b7,
+    type: 3}
+  operationStartPrefabs:
+  - {fileID: 5506354911571394942, guid: fb25b2cdfaded4d42b987292938cfcbf, type: 3}
+  - {fileID: 3037135945749663269, guid: ea202748b75469f4da84a2a2538b301f, type: 3}
+  - {fileID: 3641622320687602467, guid: 77e43b7538671164aaf899df4fce6224, type: 3}
+  - {fileID: 8411011503293947627, guid: 881451b234da00341b789697ff7d6f89, type: 3}
+  - {fileID: 2782022787858523146, guid: 461cdc5c358d8a944951172362dc591b, type: 3}
+  - {fileID: 1266238297573377139, guid: 0f1d061f33a20ce42962c662d22ad81e, type: 3}
+  - {fileID: 4691775125374040900, guid: 4ea353dd5a5e24244a50d8c5701d9210, type: 3}
+  - {fileID: 3749909781476573468, guid: f230d86fedf427a47a477339f8fded06, type: 3}
+  - {fileID: 992622224585370731, guid: 3263f5cb09c2224468ad8cea83292c2f, type: 3}
+  - {fileID: 1359435830420638877, guid: ec881d5493663344d99857219af0147b, type: 3}
+  - {fileID: 1466221444946530092, guid: 3125e083ac0429f4b8f66d6ee55cc4dc, type: 3}
+  - {fileID: 1669836745364257812, guid: 425f35bfc5d188247bf4f1b8f5a6187f, type: 3}
+  - {fileID: 2574809607637543173, guid: 0d49ac63ffea9e34aa1958559355d0cd, type: 3}
+  - {fileID: 5832590160586516150, guid: ac14648098c4e2b469aa4b61638ab8a3, type: 3}
+  - {fileID: 8296238982580191406, guid: 1d6c7ae708fd06c48856efe2bb4e759d, type: 3}
+  operationStartPrefabPaths:
+  - LessonPrefabs/Lesson0/Stage0/Action0/buddha low
+  - LessonPrefabs/Lesson0/Stage0/Action0/Erato low
+  - LessonPrefabs/Lesson0/Stage0/Action0/Indonesian_statue_pivot
+  - LessonPrefabs/Lesson0/Stage0/Action0/KnossosBackPart
+  - LessonPrefabs/Lesson0/Stage0/Action0/Eraser
+  - LessonPrefabs/Lesson0/Stage0/Action0/DeskLamp
+  - LessonPrefabs/Lesson0/Stage0/Action0/AnnotationMarker
+  - LessonPrefabs/Lesson0/Stage0/Action0/MarkerBlack
+  - LessonPrefabs/Lesson0/Stage0/Action0/MarkerBlue
+  - LessonPrefabs/Lesson0/Stage0/Action0/MarkerGreen
+  - LessonPrefabs/Lesson0/Stage0/Action0/MarkerRed
+  - LessonPrefabs/Lesson0/Stage0/Action0/MarkerYellow
+  - LessonPrefabs/Lesson0/Stage0/Action0/MalletPivot
+  - LessonPrefabs/Lesson0/Stage0/Action0/PliersPivot
+  - LessonPrefabs/Lesson0/Stage0/Action0/ScalpelPivotCultural
+  productCode: platform
+  OperationXML: {fileID: 4900000, guid: 7a4caf0d6f1f3674eb8ec73d3c92a7f9, type: 3}
+  LoginIdentityUrl: 
+  LoginLoopBackUrl: 
+  ClientId: 
+  ClientSecret: 
+  RegisterUrl: 
+  ProfileUploadUrl: 
+  AnalyticsUploadUrl: 
+  LeaderboardUrl: 
+  QuestionnaireUploadUrl: 
+  MultiplayerAnalyticsUrl: 
+  VitalsUrl: 
+  networkInfoUIPath: Packages/com.oramavr.mages/Runtime/Resources/MAGESres/NetworkR/NetworkingInfoWindow.prefab
+  UserLogin: 0
+  LanguageTranslationJsonPath: 
+  enableMicrophone: 1
+  UploadRecordingsVR: 
+  DownloadRecordingsVRList: 
+  DownloadRecordingsVR: 

@@ -1,0 +1,404 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2107482824, guid: 22007254b3929ec4890c148fc3751ba3, type: 3}
+  m_Name: MAGESLanguagesEmpty
+  m_EditorClassIdentifier: 
+  Languages:
+  - ENG
+  - GER
+  Keys:
+  - UIExpDemoFreeNA
+  - ControllerLostNotification
+  - CreateSessionHeader
+  - StartSessionButExp
+  - WaitUsersPermanentExp
+  - JoinUsersPermanentExp
+  - CloseSessionButExp
+  - JoinSessionHeader
+  - SessionNAButExp
+  - SessionAvailableButExp
+  - OpTimelineButExp
+  - OpOptionsButExp
+  - CreateSessionButExp
+  - FindSessionButExp
+  - OpFinishedHeader
+  - RestartButExp
+  - ExitButExp
+  - OpWelcomeHeader
+  - SinglePlayerButExp
+  - OpenCoopButExp
+  - PrevLessonButExp
+  - NextLessonButExp
+  - SelectLessonButExp
+  - PrevActionButExp
+  - NextActionButExp
+  - CloseTimelineButExp
+  - VideoRecordButExp
+  - AdjustPostureButExp
+  - OpQuizButExp
+  - CloseOptionsButExp
+  - ProceedHeader
+  - ProceedButExp
+  - UISpaceWarningNotification
+  - DisabledBtnButExp
+  - RefreshSessionsHeader
+  - NoSessionFoundHeader
+  - RefreshSessionsCounterPartOneHeader
+  - RefreshSessionsCounterPartTwoHeader
+  - ObjectivesTitle
+  - CloseObjectivesButExp
+  - NextObjectivesButExp
+  - EndObjectivesButExp
+  - SqueezeFingerSpecialCase
+  - FooterMessageAppearShortlyNotification
+  - NoInternetConnectionWarningNotification
+  - SteamVRStandby
+  - NAJoinedUsersPermBtnExp
+  - RecordPermBtnExp
+  - LessonNABtnExp
+  - ScoreText
+  - QuizOnBtnText
+  - QuizOffBtnText
+  - NetworkErrorNotification
+  - NAModeBtnExp
+  - UIStartTrainingDiff
+  - UIStartOperationalDiff
+  - ExplanationInteract
+  - ExplanationHover
+  - ExplanationPress
+  - MenuTitleHeader
+  - MenuCloseHeaderOculus
+  - MenuCloseHeaderVive
+  - AreYouSureButton
+  - FloorErrorMsg
+  - CriticalErrorsTitle
+  - JoinedUsers
+  - SearchTitle
+  - OptionsTitle
+  - SessionHost
+  - LoggedUsers
+  - AnalyticsScore
+  - ScrollUp
+  - ScrollDown
+  - CloseDetails
+  - ErrorsTitle
+  - Yes
+  - No
+  - ObjectContaminated
+  - MovementEnabled
+  - UseRightThumbstick
+  - Username
+  - Score
+  - Controls
+  - PressRightThumbstick
+  - PressLeftThumbstick
+  - UseLeftThumbstick
+  - SessionOverGoodbye
+  - Back
+  - JoinSession
+  - SafeArea
+  - Leaderboard
+  - Rank
+  - Country
+  - SinglePlayer
+  - ExitVR
+  - Loading
+  - SessionsTitle
+  - OnlineSessions
+  - PleaseWaitUsersToJoin
+  - PressTriggerButton
+  - NewAvatarHeader
+  - GenderAvatarHeader
+  - SkinColorAvatarHeader
+  - SuitColorAvatarHeader
+  - MaleButton
+  - FemaleButton
+  - SkinToneButton
+  - UniformColor
+  - DoneButton
+  - NextStepButton
+  - PreviousStepButton
+  - RedoAvatarButton
+  - OperationStartAction
+  - OperationEndAction
+  - DropFloorError
+  - KnossosMovementError
+  - InteractSponzaError
+  - ForceMalletError
+  - SponzaQuestionError
+  - HoldSponza
+  - SponzaQuestion
+  - ErrorWithScalpel
+  - ErrorWithCautery
+  - ErrorToolDown
+  - ErrorWithDrill
+  data:
+  - Feature N/A for this account type
+  - A Controller is out of sensor's range. Please remove your headset and check your
+    position!
+  - 'Your Session:'
+  - START SESSION
+  - Waiting for users to join
+  - Users have joined!
+  - Close Session
+  - 'Session List:'
+  - Session Unavailable
+  - Session Available
+  - Open Timeline
+  - Open Options
+  - CREATE NEW SESSION
+  - Find Online Session
+  - Finished!
+  - RESTART SESSION
+  - Application Exit
+  - Welcome
+  - Single User
+  - Open Online Sessions
+  - Preview Previous Lesson
+  - Preview Next Lesson
+  - Jump to Previewing Lesson
+  - PREVIOUS ACTION
+  - NEXT ACTION
+  - Close Timeline
+  - VIDEO RECORDING
+  - Adjust Hand Tool Posture
+  - Application Quiz
+  - Close Options
+  - Do You Want to Proceed?
+  - Proceed
+  - Be careful of your surroundings when opening a UI Panel
+  - Button is disabled
+  - Refreshing Sessions...
+  - No Sessions found
+  - 'Refreshing Sessions in: '
+  - ' seconds'
+  - 'Objectives:'
+  - Close Objectives
+  - Show Next Objectives
+  - End of Lesson Objectives
+  - Squeeze your index finger to trigger the button
+  - ' will appear again shortly...'
+  - No internet connection. Please check your PCs internet connection
+  - 'Please put on your headset in order to continue.
+
+    Otherwise press the ESC
+    (Escape) button to exit'
+  - Not available to joined users
+  - Recording ...
+  - Lesson not available
+  - 'Score: '
+  - Enable Quiz
+  - Disable Quiz
+  - 'Network connection error!
+
+
+    Please try to re-connect later'
+  - Not available for this mode
+  - Start operation on Training mode
+  - Start operation on Normal mode
+  - Interact with menu
+  - Hover
+  - Press
+  - Menu
+  - Close menu with your right thumbstick
+  - Close menu with your right menu button
+  - Are you sure?
+  - The object has been contaminated
+  - Critical Errors
+  - Joined users
+  - Search
+  - Options
+  - Session host
+  - Logged users
+  - ANALYTICS SCORE
+  - SCROLL UP
+  - SCROLL DOWN
+  - CLOSE DETAILS
+  - Errors
+  - Yes
+  - No
+  - Object has been contaminated!
+  - Movement enabled
+  - 'Use right thumbstick: rotate & height adjust'
+  - Username
+  - Score
+  - Controls
+  - "Press right thumbstick: open \u2013 close Options"
+  - 'Press left thumbstick: Movement on - off'
+  - 'Use left thumbstick: Movement'
+  - Session is over, Goodbye!
+  - BACK
+  - JOIN SESSION
+  - Safe area
+  - Leaderboard
+  - Rank
+  - Country
+  - SINGLE PLAYER
+  - EXIT VR
+  - Loading ...
+  - Sessions
+  - ONLINE SESSIONS
+  - Please wait for users to join
+  - Press the trigger button
+  - Time to create your avatar!
+  - What is your gender?
+  - What is your skin tone?
+  - What color is your suit?
+  - MALE
+  - FEMALE
+  - SKIN TONE
+  - UNIFORM COLOR
+  - DONE
+  - NEXT STEP
+  - PREVIOUS STEP
+  - REDO AVATAR
+  - Operation Start
+  - Operation End
+  - These objects are fragile. Please do not throw them on the floor.
+  - Please, move Knossos with care.
+  - You must hold the Sponza while cleaning it.
+  - Knossos is fragile! Do not use so much force!
+  - That is wrong. Sponza palace is located in Dubrovnik, Croatia.
+  - Please hold the Sponza with your Left hand
+  - Where is sponza located?
+  - Please be careful with the scalpel!
+  - Please be careful with the cautery!
+  - Watch out! You dropped the tool
+  - Be careful with the drill!
+  - N/A
+  - Ein Controller befindet sich ausserhalb der Reichweite des Sensors. Bitte entfernen
+    Sie Ihr Headset und kontrollieren Sie Ihre Position!
+  - 'Sitzung: '
+  - SITZUNG STARTEN
+  - Warten auf Mitspieler
+  - Mitspieler sind verbunden
+  - Sitzung beenden
+  - 'Liste der Sitzungen:'
+  - "Sitzung nicht verf\xFCgbar"
+  - "Sitzung verf\xFCgbar"
+  - 
+  - Optionen anzeigen
+  - NEUE SITZUNG ANLEGEN
+  - Online Sitzung finden
+  - Ende!
+  - NEUSTART
+  - Ende der Anwendung
+  - Willkommen
+  - Einzelnutzer
+  - "Online Sitzungen \xF6ffnen"
+  - Vorschau der letzten Lektion
+  - "Vorschau der n\xE4chsten Lektion"
+  - zur Lektion wechseln
+  - VORHERIGER SCHRITT
+  - NAECHSTER SCHRITT
+  - 
+  - VIDEOAUFZEICHNUNG
+  - Position des Handwerkzeugs anpassen
+  - Quiz
+  - Optionen schliessen
+  - Wollen Sie weiterfahren?
+  - Weiterfahren
+  - Achten Sie auf Ihre Umgebung
+  - Die Taste ist deaktiviert
+  - Sitzungen wiederherstellen...
+  - Keine Sitzungen gefunden
+  - 'Sitzungen wiederherstellen: '
+  - ' Sekunden'
+  - Ziele
+  - Ziele schliessen
+  - "N\xE4chste Ziele anzeigen"
+  - Ende der Ziele dieser Lektion
+  - "Taste durch Dr\xFCcken mit dem Zeigefinger bet\xE4tigen"
+  - " wird in K\xFCrze erscheinen..."
+  - "Keine Internetverbindung. \xDCberpr\xFCfe die Internetverbindung des PC's"
+  - "Bitte zum Fortfahren das Headset aufsetzen.\nAnsonsten zum Verlassen die ESC
+    Taste dr\xFCcken"
+  - "Nicht verf\xFCgbar f\xFCr verkn\xFCpfte Benutzer"
+  - Aufnahme ...
+  - "Lektion nicht verf\xFCgbar"
+  - 'Punkte: '
+  - 
+  - 
+  - "Verbindungsfehler!\n\nBitte versuche es sp\xE4ter erneut"
+  - "Nicht verf\xFCgbar f\xFCr diesen Modus"
+  - Operation im Trainings-Modus starten
+  - Operation im Normalmodus starten
+  - "Mit dem men\xFC interagieren"
+  - Schweben
+  - "Dr\xFCcken"
+  - "Men\xFC"
+  - "Men\xFC mit dem rechten Thumbstick schliessen"
+  - "Men\xFC mit der rechten Men\xFC-Taste schliessen"
+  - Bist Du sicher?
+  - Dieser Gegenstand wurde kontaminiert
+  - Schwere Fehler
+  - Mitspieler in dieser Sitzung
+  - Suchen
+  - Optionen
+  - Moderator
+  - Mitspieler
+  - AUSWERTUNG
+  - NACH OBEN
+  - NACH UNTEN
+  - FENSTER SCHLIESSEN
+  - Fehler
+  - Ja
+  - Nein
+  - Dieser Gegenstand wurde kontaminiert
+  - Umhergehen aktiviert
+  - "Rechter thumbstick: Rotation und H\xF6henverstellung"
+  - Benutzername
+  - Punkte
+  - Controller
+  - "Rechten Thumbstick dr\xFCcken: Optionen \xF6ffnen / schliessen"
+  - "Linken Thumbstick dr\xFCcken: Umhergehen ein- / ausschalten"
+  - 'Linker thumbstick: Umhergehen'
+  - Die Simulation ist beendet, auf Wiedersehen!
+  - ZURUCK
+  - SiITZUNG BEITRETEN
+  - sauberer Bereich
+  - Rangliste
+  - Rang
+  - Land
+  - EINZELSPIELER
+  - VR VERLASSEN
+  - "L\xE4dt ..."
+  - Sitzung
+  - ONLINE SITZUNG
+  - Warten auf Mitspieler
+  - "Ausl\xF6setaste dr\xFCcken"
+  - Zeit, deinen Avatar zu erstellen
+  - Was ist dein Geschlecht?
+  - Was ist dein Hautton?
+  - Welche Farbe hat dein Anzug?
+  - "M\xC4NNLICH"
+  - WEIBLICH
+  - HAUTTON
+  - FARBE
+  - GETAN
+  - "N\xC4CHSTER SCHRITT"
+  - VORHERIGER SCHRITT
+  - WIEDERHOLEN
+  - Anfang
+  - Ende
+  - Diese Objekte sind zerbrechlich. Bitte wirf sie nicht auf den Boden.
+  - Bitte bewege Knossos vorsichtig.
+  - "Du musst Sponza halten, w\xE4hrend du es reinigst."
+  - Knossos ist zerbrechlich! Wenden Sie nicht so viel Kraft an!
+  - Das ist falsch, Sponza Palast befindet sich in Dubrovnik, Kroatien
+  - Bitte halte Sponza mit der linken Hand
+  - Wo befindet sich Sponza?
+  - 
+  - 
+  - 
+  - 
+  activeLanguage: 0

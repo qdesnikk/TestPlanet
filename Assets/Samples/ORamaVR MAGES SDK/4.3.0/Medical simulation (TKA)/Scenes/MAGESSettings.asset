@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efff46aa3ee7f1e4a803ea152fa6db72, type: 3}
+  m_Name: MAGESSettings
+  m_EditorClassIdentifier: 
+  MAGESVersion: ORamaVR MAGES 4.0.0
+  loginUI: {fileID: 7893032492560938452, guid: 7a5245008b8f8e7488097062b0465509, type: 3}
+  verificationCodeUI: {fileID: 5759327016184863557, guid: cea45d94c10d3664eba7fd818c414199,
+    type: 3}
+  operationStartUI: {fileID: 4724940016408890019, guid: a602ef0096e55f144af5d8352c1e3ade,
+    type: 3}
+  analyticsViewUI: {fileID: 4055303276646785221, guid: c3210ea169560dd45a2bab858eb9301e,
+    type: 3}
+  customizationCanvasUI: {fileID: 6299760238693719013, guid: f4113e97f9487c8489f501ecac92fd82,
+    type: 3}
+  optionsUI: {fileID: 1476319424171800, guid: b1dd3a5ccb1b63e46980e07bbb673b8e, type: 3}
+  customErrorUI: {fileID: 0}
+  customWarningUI: {fileID: 0}
+  customCriticalUI: {fileID: 0}
+  customNotificationUI: {fileID: 0}
+  networkInfoUI: {fileID: 1198252840137898, guid: 114988d5d6c9dff4d90dad383471682b,
+    type: 3}
+  networkUI: {fileID: 8235612400274572116, guid: 3b5a3e13dc381504d9d1a0d6ae19f4b7,
+    type: 3}
+  operationStartPrefabs:
+  - {fileID: 8892185205794682928, guid: 58ee131990dd36b4cacdcf42ccc502b7, type: 3}
+  - {fileID: 5748315479114208055, guid: 61bec1405cba3314799dd79bf8bc8ecd, type: 3}
+  - {fileID: 6733739946131984508, guid: 45dcae1cd78610741a293b009bf08e13, type: 3}
+  - {fileID: 916528432290351974, guid: 51e2befd5ae1c064caa5b7e89c5196f2, type: 3}
+  - {fileID: 5471237930283885110, guid: 85fff0e582e35364680572e0bc4ad497, type: 3}
+  - {fileID: 1283492817352785765, guid: 4d62aef017a854d4a92373d3c2d9b724, type: 3}
+  - {fileID: 7810352366840476825, guid: 2615a44f4e667514e8341c5aedc91b4b, type: 3}
+  - {fileID: 8616907705229911594, guid: 2b62d8237c1c6d248b4d72d517dfebfe, type: 3}
+  - {fileID: 2036016150298319702, guid: e6735d502ad6caf4288ff11a8543c593, type: 3}
+  - {fileID: 6583430924180191685, guid: 198a761757c58b747af0f53166407bcd, type: 3}
+  - {fileID: 725779183430956105, guid: 831037a53a82cda48adcf7d032988034, type: 3}
+  - {fileID: 6139277133780145880, guid: d38a41fbf944ac346b1be2412e838cfc, type: 3}
+  - {fileID: 5967800644348684301, guid: 8f64882800986c94ba920fddc1fa9de4, type: 3}
+  - {fileID: 2153945518998070582, guid: 2c6a0daa68f646e4eb7a36532e8dd0e2, type: 3}
+  - {fileID: 7989753730249921662, guid: 6b7fab3e14022be4c9eff2b56dc5adea, type: 3}
+  - {fileID: 7989753730249921662, guid: 6b7fab3e14022be4c9eff2b56dc5adea, type: 3}
+  - {fileID: 7120835464486636090, guid: b474a0d274d82d548b18b9c50157c593, type: 3}
+  operationStartPrefabPaths:
+  - LessonPrefabs/Lesson0/Stage0/Action0/ScalpelPivot
+  - LessonPrefabs/Lesson0/Stage0/Action0/CauterizerPivot
+  - LessonPrefabs/Lesson0/Stage0/Action0/DrillPivot
+  - LessonPrefabs/Lesson0/Stage0/Action0/Markers/Eraser
+  - LessonPrefabs/Lesson0/Stage0/Action0/Markers/MarkerBlack
+  - LessonPrefabs/Lesson0/Stage0/Action0/Markers/MarkerBlue
+  - LessonPrefabs/Lesson0/Stage0/Action0/Markers/MarkerGreen
+  - LessonPrefabs/Lesson0/Stage0/Action0/Markers/MarkerRed
+  - LessonPrefabs/Lesson0/Stage0/Action0/Markers/MarkerYellow
+  - LessonPrefabs/Lesson0/Stage0/Action0/CuttableBone
+  - LessonPrefabs/Lesson0/Stage0/Action0/TearAndCutScalpel
+  - LessonPrefabs/Lesson0/Stage0/Action0/TearableFat
+  - LessonPrefabs/Lesson0/Stage0/Action0/UINotificationCTD
+  - LessonPrefabs/Lesson0/Stage0/Action0/UINotificationVitals
+  - LessonPrefabs/Lesson0/Stage0/Action0/UINotificationWhiteboard
+  - LessonPrefabs/Lesson0/Stage0/Action0/UINotificationWhiteboard
+  - LessonPrefabs/Lesson0/Stage0/Action0/UINotificationCutOut
+  productCode: platform
+  OperationXML: {fileID: 4900000, guid: 3ba0450b8b5f75f4dadb17a8e4c0faea, type: 3}
+  LoginIdentityUrl: 
+  LoginLoopBackUrl: 
+  ClientId: 
+  ClientSecret: 
+  RegisterUrl: 
+  ProfileUploadUrl: 
+  AnalyticsUploadUrl: 
+  LeaderboardUrl: 
+  QuestionnaireUploadUrl: 
+  MultiplayerAnalyticsUrl: 
+  VitalsUrl: 
+  networkInfoUIPath: Packages/com.oramavr.mages/Runtime/Resources/MAGESres/NetworkR/NetworkingInfoWindow.prefab
+  UserLogin: 0
+  LanguageTranslationJsonPath: 
+  enableMicrophone: 1
+  UploadRecordingsVR: 
+  DownloadRecordingsVRList: 
+  DownloadRecordingsVR: 

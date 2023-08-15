@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<ArrayOfLessons xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Lessons>
+    <Lesson_Name>Starting Lesson</Lesson_Name>
+    <Tag>Normal</Tag>
+    <Stages>
+      <Stage_Name>Starting Stage</Stage_Name>
+      <Actions>
+        <Action>Operation Start</Action>
+        <ActionClassName>OperationStart</ActionClassName>
+        <HasAnalytics>true</HasAnalytics>
+        <optionalActions />
+        <destroyOnPerform />
+      </Actions>
+      <Actions>
+        <Action>QuestionExample</Action>
+        <ActionClassName>QuestionActionExample</ActionClassName>
+        <HasAnalytics>true</HasAnalytics>
+        <optionalActions>
+          <string>Jar Lesson</string>
+        </optionalActions>
+        <destroyOnPerform />
+      </Actions>
+      <Actions>
+        <Action>Assemble the North Gate</Action>
+        <ActionClassName>AssembleKnossosAction</ActionClassName>
+        <HasAnalytics>true</HasAnalytics>
+        <optionalActions>
+          <string>Sponza Lesson</string>
+        </optionalActions>
+        <destroyOnPerform>
+          <string>Sponza Lesson</string>
+        </destroyOnPerform>
+      </Actions>
+    </Stages>
+  </Lessons>
+  <Lessons>
+    <Lesson_Name>Knossos Lesson</Lesson_Name>
+    <Tag>Normal</Tag>
+    <Stages>
+      <Stage_Name>Knossos Assemble Stage</Stage_Name>
+      <Actions>
+        <Action>Remove the flashing Minoan Jar</Action>
+        <ActionClassName>RemoveJarExample</ActionClassName>
+        <HasAnalytics>true</HasAnalytics>
+        <optionalActions />
+        <destroyOnPerform />
+      </Actions>
+      <Actions>
+        <Action>Remove the Minoan Jars using Pliers</Action>
+        <ActionClassName>RemoveJarWithToolExample</ActionClassName>
+        <HasAnalytics>true</HasAnalytics>
+        <optionalActions />
+        <destroyOnPerform />
+      </Actions>
+      <Actions>
+        <Action>Apply Glue using the Syringe</Action>
+        <ActionClassName>ApplyGlueAction</ActionClassName>
+        <HasAnalytics>true</HasAnalytics>
+        <optionalActions />
+        <destroyOnPerform />
+      </Actions>
+      <Actions>
+        <Action>Insert the plug</Action>
+        <ActionClassName>InsertPlugAction</ActionClassName>
+        <HasAnalytics>true</HasAnalytics>
+        <optionalActions />
+        <destroyOnPerform>
+          <string>Jar Lesson</string>
+        </destroyOnPerform>
+      </Actions>
+      <Actions>
+        <Action>Operation End</Action>
+        <ActionClassName>OperationEndAction</ActionClassName>
+        <HasAnalytics>true</HasAnalytics>
+        <optionalActions />
+        <destroyOnPerform />
+      </Actions>
+    </Stages>
+  </Lessons>
+  <Lessons>
+    <Lesson_Name>Jar Lesson</Lesson_Name>
+    <Tag>Optional</Tag>
+    <Stages>
+      <Stage_Name>Jar Stage</Stage_Name>
+      <Actions>
+        <Action>Insert the Jar</Action>
+        <ActionClassName>InsertJarAction</ActionClassName>
+        <HasAnalytics>true</HasAnalytics>
+        <optionalActions>
+          <string />
+        </optionalActions>
+        <destroyOnPerform>
+          <string />
+        </destroyOnPerform>
+      </Actions>
+      <Actions>
+        <Action>Hammer the Jar</Action>
+        <ActionClassName>HammerJarAction</ActionClassName>
+        <HasAnalytics>true</HasAnalytics>
+        <optionalActions />
+        <destroyOnPerform />
+      </Actions>
+    </Stages>
+  </Lessons>
+  <Lessons>
+    <Lesson_Name>Sponza Lesson</Lesson_Name>
+    <Tag>Optional</Tag>
+    <Stages>
+      <Stage_Name>Sponza Stage</Stage_Name>
+      <Actions>
+        <Action>Assemble the Sponza</Action>
+        <ActionClassName>AssembleSponzaAction</ActionClassName>
+        <HasAnalytics>true</HasAnalytics>
+        <optionalActions />
+        <destroyOnPerform />
+      </Actions>
+    </Stages>
+  </Lessons>
+  <Lessons>
+    <Lesson_Name>Sponza Restoration</Lesson_Name>
+    <Tag>Optional</Tag>
+    <Stages>
+      <Stage_Name>Restoration Stage</Stage_Name>
+      <Actions>
+        <Action>Clean Sponza Monument</Action>
+        <ActionClassName>CleanSponzaAction</ActionClassName>
+        <HasAnalytics>true</HasAnalytics>
+        <optionalActions />
+        <destroyOnPerform />
+      </Actions>
+      <Actions>
+        <Action>Scratch Sponza Monument</Action>
+        <ActionClassName>ScratchSponzaAction</ActionClassName>
+        <HasAnalytics>true</HasAnalytics>
+        <optionalActions />
+        <destroyOnPerform />
+      </Actions>
+      <Actions>
+        <Action>Operation End</Action>
+        <ActionClassName>OperationEndAction</ActionClassName>
+        <HasAnalytics>true</HasAnalytics>
+        <optionalActions />
+        <destroyOnPerform />
+      </Actions>
+    </Stages>
+  </Lessons>
+</ArrayOfLessons>

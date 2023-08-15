@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<ArrayOfLessons xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Lessons>
+    <Lesson_Name>Deformations</Lesson_Name>
+    <Tag>Normal</Tag>
+    <Stages>
+      <Stage_Name>Softbodies and CTD</Stage_Name>
+      <Actions>
+        <Action>Operation Start</Action>
+        <ActionClassName>SoftbodyCTDStart</ActionClassName>
+        <optionalActions />
+        <destroyOnPerform />
+      </Actions>
+      <Actions>
+        <Action>Deformable Bowel</Action>
+        <ActionClassName>SoftBowel</ActionClassName>
+        <optionalActions />
+        <destroyOnPerform />
+      </Actions>
+      <Actions>
+        <Action>Cut Bowel</Action>
+        <ActionClassName>CutCube</ActionClassName>
+        <optionalActions />
+        <destroyOnPerform />
+      </Actions>
+      <Actions>
+        <Action>Tear Bowel</Action>
+        <ActionClassName>TearFat</ActionClassName>
+        <optionalActions />
+        <destroyOnPerform />
+      </Actions>
+      <Actions>
+        <Action>Operation End</Action>
+        <ActionClassName>SoftbodyCTDEnd</ActionClassName>
+        <optionalActions />
+        <destroyOnPerform />
+      </Actions>
+    </Stages>
+  </Lessons>
+</ArrayOfLessons>

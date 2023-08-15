@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efff46aa3ee7f1e4a803ea152fa6db72, type: 3}
+  m_Name: MAGESSettingsSoftbodiesCTD
+  m_EditorClassIdentifier: 
+  MAGESVersion: ORamaVR MAGES 4.0.0
+  loginUI: {fileID: 7893032492560938452, guid: 7a5245008b8f8e7488097062b0465509, type: 3}
+  verificationCodeUI: {fileID: 5759327016184863557, guid: cea45d94c10d3664eba7fd818c414199,
+    type: 3}
+  operationStartUI: {fileID: 7043335914149686159, guid: da19e8515868f5a4f8f4d40d3a22ae02,
+    type: 3}
+  analyticsViewUI: {fileID: 8072450377652625839, guid: e61f825d65a3c8b4c818de2c444f9e28,
+    type: 3}
+  customizationCanvasUI: {fileID: 6299760238693719013, guid: f4113e97f9487c8489f501ecac92fd82,
+    type: 3}
+  optionsUI: {fileID: 1476319424171800, guid: b1dd3a5ccb1b63e46980e07bbb673b8e, type: 3}
+  customErrorUI: {fileID: 0}
+  customWarningUI: {fileID: 0}
+  customCriticalUI: {fileID: 0}
+  customNotificationUI: {fileID: 0}
+  networkInfoUI: {fileID: 1198252840137898, guid: 114988d5d6c9dff4d90dad383471682b,
+    type: 3}
+  networkUI: {fileID: 4398339941972707238, guid: f382ca4d13c844f4cb6e2642660db6d0,
+    type: 3}
+  operationStartPrefabs: []
+  operationStartPrefabPaths: []
+  productCode: platform
+  OperationXML: {fileID: 4900000, guid: af157fdfe6b405049aad25814fb8e303, type: 3}
+  LoginIdentityUrl: 
+  LoginLoopBackUrl: 
+  ClientId: 
+  ClientSecret: 
+  RegisterUrl: 
+  ProfileUploadUrl: 
+  AnalyticsUploadUrl: 
+  LeaderboardUrl: 
+  QuestionnaireUploadUrl: 
+  MultiplayerAnalyticsUrl: 
+  VitalsUrl: 
+  networkInfoUIPath: Packages/com.oramavr.mages/Runtime/Resources/MAGESres/NetworkR/NetworkingInfoWindow.prefab
+  UserLogin: 0
+  LanguageTranslationJsonPath: 
+  enableMicrophone: 1
+  UploadRecordingsVR: 
+  DownloadRecordingsVRList: 
+  DownloadRecordingsVR: 

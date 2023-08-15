@@ -1,0 +1,47 @@
+{
+  "multiplier": 1,
+  "errorsData": [],
+  "errorsStayData": [],
+  "errorsHitPerformData": [],
+  "timeData": {
+    "enabled": true,
+    "timer": 1000.0,
+    "importance": 2,
+    "scoringMethod": 1
+  },
+  "lerpData": {
+    "enabled": false,
+    "scoringAngles": [],
+    "finalLerpGameObjects": [],
+    "importance": 2
+  },
+  "qData": {
+    "enabled": false,
+    "questionPrefabs": [],
+    "spawnError": false,
+    "questionErrorMsg": 0,
+    "questionErrorType": 0,
+    "importance": 2,
+    "skill": [],
+    "scoringMethod": 1
+  },
+  "vData": {
+    "enabled": false,
+    "interactablePrefab": "",
+    "velocity": 0.0,
+    "spawnError": false,
+    "errorMsg": 0,
+    "errorType": 0,
+    "importance": 2
+  },
+  "customAnalyticsData": {
+    "enabled": false,
+    "script": null,
+    "importance": 2
+  },
+  "numberOfMetrics": 1,
+  "exactness": 0,
+  "errorsEnabled": false,
+  "stayErrorsEnabled": false,
+  "hitPerformErrorsEnabled": false
+}
